@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title – приложение ASP.NET</title>
+    @Styles.Render("~/Content/css")
+    
+    
+</head>
+<body>
+    @if (User.Identity.IsAuthenticated)
+    {
+    <ul class="navbar">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about_us">About</a></li>
+        <li><a href="#contacts">Contacts</a></li>
+        <li class="user">@User.Identity.Name</li>
+        <li>@Html.ActionLink("Exit", "Logoff", "Account")</li>
+    </ul>
+    }
+    else
+    {
+    <ul class="navbar">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about_us">About</a></li>
+        <li><a href="#contacts">Contacts</a></li>
+        <li>@Html.ActionLink("Registration", "Register", "Account")</li>
+        <li>@Html.ActionLink("Log in", "Login", "Account")</li>
+    </ul>
+    }
+    
+        @RenderBody()
+       
+   
+</body>
+</html>

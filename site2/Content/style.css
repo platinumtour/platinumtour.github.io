@@ -1,0 +1,309 @@
+.navbar {
+    list-style-type: none;
+    background-color: #333;
+    justify-content: flex-end;
+    display: flex;
+}
+.navbar li {
+        padding: 14px 20px;
+}
+.user {
+    color: white;
+}
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+ul {
+    margin: 0;
+}
+
+.navbar li:hover {
+    background-color: #ddd;
+    color: black;
+    padding: 14px 20px;
+}
+header {
+    padding: 0;
+    margin: 0;
+}
+header img {
+    width: 100%;
+    height: 100vh;
+}
+
+.text {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
+
+
+.welcome {
+    margin: 0 auto;
+    display: inline-block;
+    position: absolute;
+    top: 450px;
+    left: 0;
+    width: 100%;
+    /* Оформление текста */
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    /* Фон */
+    background-color: rgba(0,0,0,.4);
+    padding: 10px 30px;
+  
+}
+.container {
+    width: 1350px;
+    margin: 0 auto;
+   
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+#services {
+    height: 900px; 
+}
+.title {
+    padding-top: 150px;
+    margin-bottom: 70px;
+}
+
+.title h2 {
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.title p {
+    color: #2a2929;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.services_icon {
+    width: 350px;
+    float: left;
+    text-align: center;
+}
+
+.services_icon h3 {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.services_icon p {
+    font-size: 20px;
+    color: #2a2929;
+    line-height: 1.6em;
+}
+
+.services_icon:last-child {
+    float: right;
+    margin-right: 80px;
+}
+
+.services_icon:nth-child(1) {
+    margin-left: 65px;
+    margin-right: 0px;
+}
+
+#about_us {
+    padding-bottom: 150px;
+    background: #faddac;
+}
+
+.about_icon {
+    width: 350px;
+    float: left;
+    text-align: center;
+}
+
+.about_icon h3 {
+    font-size: 30px;
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+
+.about_icon p {
+    font-size: 20px;
+    color: #2a2929;
+    line-height: 1.6em;
+}
+
+.about_icon:last-child {
+    margin-left: 77px;
+}
+.about_icon:nth-child(1) {
+    margin-left: 77px;
+    margin-right: 0px;
+}
+
+.about_icon:last-child img {
+    margin-top: 20px;
+}
+
+.img {
+    border: 10px solid #eded8d;
+    border-radius: 1000px;
+    display: block;
+    margin: 0 auto;
+}
+
+.diagram {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 50px auto;
+    background: #ebf189;
+    border: 30px solid #fabe59;
+    border-right-color: #fbd18a;
+    font-size: 60px;
+    text-align: center;
+    line-height: 250px;
+}
+
+.diagram span {
+    font-size: 60px;
+    color: #2a2929;
+}
+
+#about_us h6 {
+    padding-top: 600px;
+    font-size: 30px;
+    text-align: center;
+    color: #2a2929;
+}
+#contacts {
+    height: 700px;
+}
+.contact {
+    width: 350px;
+    float: left;
+    text-align: center;
+}
+
+.contact a img {
+    height: 200px;
+    width: 200px;
+}
+
+.contact:last-child {
+    float: right;
+    margin-right: 50px;
+}
+
+.contact:nth-child(1) {
+    margin-left: 65px;
+    margin-right: 15px;
+}
+
+#otziv {
+    background-color: blue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.container2 {
+    width: 350px;
+    background-color: rgba(24, 33, 52, 0.7);
+    margin: 100px auto;
+    text-align: center;
+    box-shadow: 0 -5px 0 #FFF;
+    border-radius: 0 0 10px 10px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+input[type="text"], input[type="email"], input[type="text1"] {
+    width: 300px;
+    height: 50px;
+    font-size: 18px;
+    margin-bottom: 25px;
+    border-radius: 4px;
+    padding-left: 10px;
+}
+
+.dws-submit {
+    padding: 13px 30px;
+    margin: 5px 0 20px 0;
+    font-size: 15px;
+    color: #fff;
+    background-color: #2ca8c6;
+    border: none;
+    border-bottom: 4px solid #6ee9fd;
+    cursor: pointer;
+}
+
+    .dws-submit:hover {
+        transition: all 0.5s;
+        background: #fff;
+        color: #2c536c;
+    }
+footer {
+    background: #d1d19f;
+}
+.signature {
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #2a2929;
+    padding: 20px;
+    margin: 0px;
+}
+
+.form-horizontal {
+    width: 450px;
+    background-color: #111771;
+    margin: 50px auto;
+    text-align: center;
+    box-shadow: 0 -5px 0 #3adbfd;
+    border-radius: 0 0 10px 10px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.control_text {
+    font-size: 25px;
+    margin: 5px;
+    color: #e9f0ff;
+}
+label.control_text {
+    margin-bottom: 15px;
+}
+.form-control {
+    width: 300px;
+    height: 50px;
+    font-size: 18px;
+    margin-bottom: 25px;
+    border-radius: 4px;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+.submit {
+    padding: 13px 30px;
+    margin: 10px 0 0 0;
+    font-size: 15px;
+    color: #fff;
+    background-color: #2ca8c6;
+    border: none;
+    border-bottom: 4px solid #6ee9fd;
+    cursor: pointer;
+}
+.submit:hover {
+    transition: all 0.5s;
+    background: #fff;
+    color: #2c536c;
+}
+.regist {
+    text-align: center;
+    font-size: 45px;
+    margin: 0;
+    padding: 0;
+}
